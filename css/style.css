@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-/* font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif; */
 
 :root {
     --main-background: hsl(233, 47%, 7%);
@@ -10,8 +8,8 @@ font-family: 'Lexend Deca', sans-serif; */
     --clr-heading: hsl(0, 0%, 100%);
     --clr-para: hsla(0, 0%, 100%, 0.75);
     --clr-stat: hsla(0, 0%, 100%, 0.6);
-    --ff-primary: 'Lexend Deca', sans-serif;
-    --ff-secondary: 'Inter', sans-serif;
+    --ff-primary: 'Inter', sans-serif;
+    --ff-secondary: 'Lexend Deca', sans-serif;
     --BR: 10px;
 }
 
@@ -73,7 +71,6 @@ body {
 }
 
 .card-para {
-    font-family: var(--ff-secondary);
     margin-bottom: 2rem;
     color: var(--clr-para);
     line-height: 1.5;
@@ -95,7 +92,6 @@ body {
 }
 
 .stat-heading {
-    font-family: var(--ff-secondary);
     color: var(--clr-stat);
     font-size: 14px;
     text-transform: uppercase;
@@ -111,16 +107,6 @@ body {
     .card-sidebar {
         width: 49%;
         border-radius: 0 var(--BR) var(--BR)  0;
-        /* background-image: url('../images/mobile.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: luminosity;
-        opacity: 0.6; */
-        
-    }
-
-    .card-image {
-        /* visibility: hidden; */
     }
 
     .card-main {
@@ -133,8 +119,8 @@ body {
     }
 
     .card-title {
-        font-size: 1.5em;
-        margin-bottom: 1rem;
+        font-size: 1.6em;
+        margin-bottom: 0.7rem;
     }
 
     .card-para {
@@ -161,18 +147,16 @@ body {
     }
 }
 
+
+
 /* Big Screen */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 945px) {
     .card-main {
         padding: 6%;
     }
 
-    .card-image {
-        
-    }
-
     .card-title {
-        font-size: 1.7em;
+        font-size: 1.9em;
         margin-bottom: 1.6rem;
     }
     .card-para {
