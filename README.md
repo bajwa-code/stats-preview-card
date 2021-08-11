@@ -6,7 +6,7 @@
 
 Thanks for checking out this.
 
-# Front-end Style Guide
+# Style Used
 
 ## Layout
 
