@@ -24,7 +24,7 @@
 body {
     min-height: 100vh;
     font-family: var(--ff-primary);
-    background: var(--main-background);
+    /* background: var(--main-background); */
     display: grid;
     place-items: center;
     margin: 2rem 1.4rem;
